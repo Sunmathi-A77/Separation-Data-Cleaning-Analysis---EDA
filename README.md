@@ -1,17 +1,17 @@
-## 📊 Separation Data Cleaning & Analysis – EDA
+# 📊 Separation Data Cleaning & Analysis – EDA
 
 ## 📌 Project Overview
 
 This project focuses on data cleaning and exploratory data analysis (EDA) on a dataset containing separated names and IDs.
 The goal is to clean raw data, perform basic analysis, and apply simple statistics to extract meaningful insights.
 
-# 📂 Dataset Details
+## 📂 Dataset Details
 
 File Used: separated_names.csv 
 
 Source - Kaggle (Link - https://drive.google.com/file/d/1wRJggH-4ROb2_1u8ohIEWFxwzrRsg3Bc/view?usp=sharing)
 
-# Key Features:
+## Key Features:
 
 id → Original field with ID and First Name combined.
 
@@ -19,9 +19,9 @@ ID → 5-digit unique identifier.
 
 First_Name → Person’s first name.
 
-# ⚙️ Steps Performed
+## ⚙️ Steps Performed
 
-# 🔹Basic Data Understanding (Pandas)
+## 🔹Basic Data Understanding (Pandas)
 
 Loaded the dataset into a Pandas DataFrame
 
@@ -37,7 +37,7 @@ ID (numeric statistics)
 
 First_Name (categorical summary)
 
-# 🔹Data Cleaning
+## 🔹Data Cleaning
 
 Split raw ID column into:
 
@@ -51,7 +51,7 @@ Standardized names into title case
 
 Verified uniqueness of ID
 
-# 🔹Exploratory Data Analysis (EDA)
+## 🔹Exploratory Data Analysis (EDA)
 
 Found the most common first name
 
@@ -61,7 +61,7 @@ Identified top 5 IDs (largest) and bottom 5 IDs (smallest)
 
 Created a bar chart of top 10 most frequent first names
 
-# 🔹Statistics
+## 🔹Statistics
 
 Computed mean, median, variance, and standard deviation of ID
 
@@ -71,7 +71,7 @@ Probability that a name starts with letter 'A'
 
 Percentage of names with more than 5 letters
 
-# 🔹Linear Algebra & NumPy
+## 🔹Linear Algebra & NumPy
 
 Converted ID column into a NumPy array
 
@@ -89,7 +89,7 @@ Features = [ID, score]
 
 Weights = [0.3, 0.7]
 
-# 🔹Feature Engineering
+## 🔹Feature Engineering
 
 Created:
 
@@ -101,7 +101,7 @@ High_ID = binary column (1 if ID > 50000)
 
 Ranked names by length into 4 quartiles using qcut()
 
-# 🔹SQL Simulation in Pandas
+## 🔹SQL Simulation in Pandas
 
 Selected rows where Starts_With_Vowel = 1 AND High_ID = 1
 
@@ -111,7 +111,7 @@ Grouped by Starts_With_Vowel and counted rows
 
 Sorted dataset by Name_Length (descending) and ID (ascending)
 
-# 🔹Insights
+## 🔹Insights
 
 Most frequent name identified
 
@@ -121,19 +121,19 @@ Trend check: correlation between ID size and name length
 
 Determined which Name_Length quartile had the longest average IDs
 
-# 📊 Visualizations & Insights
+## 📊 Visualizations & Insights
 
 Bar charts of most frequent first names
 
 <img width="554" height="494" alt="image" src="https://github.com/user-attachments/assets/bf94762d-f487-4117-85b1-07ed2bfa0a48" />
 
-# 📌 Tech Stack
+## 📌 Tech Stack
 
 Python 🐍
 
 Libraries: Pandas, NumPy, Matplotlib
 
-# ✅ Results & Findings
+## ✅ Results & Findings
 
 Dataset successfully cleaned and structured
 
