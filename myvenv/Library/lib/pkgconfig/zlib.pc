@@ -1,0 +1,13 @@
+prefix=C:/pythonevn-2/myvenv/Library
+exec_prefix=C:/pythonevn-2/myvenv/Library
+libdir=C:/pythonevn-2/myvenv/Library/lib
+sharedlibdir=C:/pythonevn-2/myvenv/Library/lib
+includedir=C:/pythonevn-2/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
