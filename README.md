@@ -9,7 +9,7 @@ The goal is to clean raw data, perform basic analysis, and apply simple statisti
 
 File Used: separated_names.csv 
 
-Source - Kaggle (Link - https://drive.google.com/file/d/1wRJggH-4ROb2_1u8ohIEWFxwzrRsg3Bc/view?usp=sharing)
+Link - https://drive.google.com/file/d/1wRJggH-4ROb2_1u8ohIEWFxwzrRsg3Bc/view?usp=sharing
 
 ## Key Features:
 
