@@ -1,6 +1,6 @@
 ## 📊 Separation Data Cleaning & Analysis – EDA
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on data cleaning and exploratory data analysis (EDA) on a dataset containing separated names and IDs.
 The goal is to clean raw data, perform basic analysis, and apply simple statistics to extract meaningful insights.
