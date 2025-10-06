@@ -37,7 +37,14 @@ ID (numeric statistics)
 
 First_Name (categorical summary)
 
-## 🔹Data Cleaning
+## 🔹Data Distribution :
+
+ID Skewness: Slightly positive (0.208), distribution approximately normal. The value is positive, but very small → a slight right skew (tiny tail on the right side).
+Action: No transformation (like log) is needed.
+
+Histogram confirms most IDs are lower with a small right tail -
+
+## 🔹Data Cleaning 
 
 Split raw ID column into:
 
@@ -144,3 +151,19 @@ Simulated SQL queries using Pandas operations
 Extracted useful features (Name_Length, High_ID, Starts_With_Vowel) for analysis
 
 Gained insights into relationships between IDs, names, and derived features
+
+## 🔹Feature Analysis:
+
+Name Length Analysis: Grouped by Starts_With_Vowel and High_ID.
+
+Non-vowel names are generally longer.
+
+High IDs slightly correspond to shorter names.
+
+Shortest names appear in vowel-starting, high ID group.
+
+Bar chart - Average Name Length by Vowel Start and High ID
+
+
+
+
