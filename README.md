@@ -42,7 +42,7 @@ First_Name (categorical summary)
 ID Skewness: Slightly positive (0.208), distribution approximately normal. The value is positive, but very small → a slight right skew (tiny tail on the right side).
 Action: No transformation (like log) is needed.
 
-Histogram confirms most IDs are lower with a small right tail -
+Histogram confirms most IDs are lower with a small right tail - <img width="558" height="393" alt="image" src="https://github.com/user-attachments/assets/460920b5-8884-4836-981f-6fbb8a0878f0" />
 
 ## 🔹Data Cleaning 
 
@@ -164,6 +164,4 @@ Shortest names appear in vowel-starting, high ID group.
 
 Bar chart - Average Name Length by Vowel Start and High ID
 
-
-
-
+<img width="523" height="393" alt="image" src="https://github.com/user-attachments/assets/3b95ab7c-deba-4028-9472-1f7481bbfc6e" />
